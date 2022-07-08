@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "14-Lazos2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\14-Lazos2.js",
+
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "13-Lazos",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\13-Lazos.js",
+
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "15-Lazos",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\15-Lazos3.js",
+
+        }
+    ]
+}
